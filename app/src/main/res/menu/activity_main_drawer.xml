@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Categories">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/ic_flash"
+                    android:title="Home" />
+                <item
+                    android:id="@+id/nav_deals"
+                    android:icon="@drawable/ic_flash"
+                    android:title="Daily Deals" />
+                <item
+                    android:id="@+id/nav_mobiles"
+                    android:icon="@drawable/ic_cellphone"
+                    android:title="@string/mobiles" />
+                <item
+                    android:id="@+id/nav_tablets"
+                    android:icon="@drawable/ic_tablet_outline_in_horizontal_position"
+                    android:title="@string/tablets" />
+                <item
+                    android:id="@+id/nav_laptops"
+                    android:icon="@drawable/ic_laptoppppppppp"
+                    android:title="@string/laptops" />
+                <item
+                    android:id="@+id/nav_acc"
+                    android:icon="@drawable/ic_mobile_and_laptop_charging_with_solar_panel"
+                    android:title="@string/accessories" />
+            </group>
+
+
+        </menu>
+    </item>
+
+
+    <item android:title="@string/communicate">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_edit"
+                    android:icon="@drawable/ic_user"
+                    android:title="@string/edit_profile" />
+
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/ic_about_us"
+                    android:title="@string/about_us" />
+
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="@string/share" />
+                <item
+                    android:id="@+id/nav_send"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="@string/send" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

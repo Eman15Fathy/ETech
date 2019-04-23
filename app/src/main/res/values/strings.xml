@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">E-Tech</string>
+    <string name="username">username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">login</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="forget_yor_password">Forget your password?</string>
+    <string name="e_tech">E-Tech</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="todo">TODO</string>
+    <string name="sign_up_and_create_your_account">Sign up and create your FREE account</string>
+    <string name="first_name">First name</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="second_name">Second name</string>
+    <string name="forget_your_password">Forget Your Password?</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="done">Done</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="flash_offers">Flash Offers</string>
+    <string name="categories">Categories</string>
+    <string name="mobiles">Mobiles</string>
+    <string name="tablets">Tablets</string>
+    <string name="laptops">Laptops</string>
+    <string name="accessories">Accessories</string>
+    <string name="communicate">Communicate</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="about_us">About Us</string>
+    <string name="title_activity_list_view">ListViewActivity</string>
+    <string name="share">Share</string>
+    <string name="send">Send</string>
+    <string name="skip"><u>Skip</u></string>
+
+</resources>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.homeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/img_mobiles"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:contentDescription="@string/mobiles"
+            app:layout_constraintBottom_toTopOf="@+id/btn_mobiles"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/img_deals"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/img_phones"
+            />
+
+        <ImageView
+            android:id="@+id/img_tablets"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@id/btn_tablets"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/img_laptops"
+            app:layout_constraintTop_toBottomOf="@id/btn_acc"
+            app:srcCompat="@drawable/tablets"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/img_laptops"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/btn_laptops"
+            app:layout_constraintEnd_toStartOf="@+id/img_tablets"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_acc"
+            app:srcCompat="@drawable/laptops"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/img_acc"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/btn_acc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_deals"
+            app:srcCompat="@drawable/acc"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/img_deals"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/btn_deals"
+            app:layout_constraintEnd_toStartOf="@+id/img_mobiles"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/deals"
+            android:padding="16dp"
+            tools:ignore="ContentDescription"
+            android:scaleType="fitXY"/>
+
+        <Button
+            android:id="@+id/btn_tablets"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tablets"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/btn_laptops"
+            app:layout_constraintTop_toBottomOf="@id/img_tablets"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="#000000"/>
+
+        <Button
+            android:id="@+id/btn_laptops"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="@string/laptops"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btn_tablets"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img_laptops" />
+
+        <Button
+            android:id="@+id/btn_acc"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:text="@string/accessories"
+            app:layout_constraintBottom_toTopOf="@+id/img_laptops"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img_acc"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="#000000"/>
+
+        <Button
+            android:id="@+id/btn_mobiles"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="@string/mobiles"
+            app:layout_constraintBottom_toTopOf="@id/img_acc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/btn_deals"
+            app:layout_constraintTop_toBottomOf="@id/img_mobiles"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="#000000"/>
+
+        <Button
+            android:id="@+id/btn_deals"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Daily Deals"
+            app:layout_constraintEnd_toStartOf="@+id/btn_mobiles"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img_deals"
+            app:layout_constraintBottom_toTopOf="@id/img_acc"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="#000000"
+            />
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>
